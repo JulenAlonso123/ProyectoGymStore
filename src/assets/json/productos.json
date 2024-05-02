@@ -1,0 +1,27 @@
+[
+    {
+      "imagen": "ruta/imagen1.jpg",
+      "producto": "Proteina Whey",
+      "descripcion": "1kg de proteína en polvo de suero de leche para la construcción muscular",
+      "precio": "40€"
+    },
+    {
+      "imagen": "ruta/imagen2.jpg",
+      "producto": "BCAA",
+      "descripcion": "Suplemento de aminoácidos de cadena ramificada para la recuperación muscular, 35 capsulas",
+      "precio": "25€"
+    },
+    {
+      "imagen": "ruta/imagen3.jpg",
+      "producto": "Set de Pesas",
+      "descripcion": "Set de 4 pares de pesas ajustables para entrenamiento de fuerza y resistencia",
+      "precio": "80€"
+    },
+    {
+      "imagen": "ruta/imagen4.jpg",
+      "producto": "Cuerda para Saltar",
+      "descripcion": "Cuerda de saltar ajustable para mejorar la resistencia cardiovascular y quemar calorías.",
+      "precio": "10€"
+    }
+  ]
+  
