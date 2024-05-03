@@ -6,6 +6,7 @@ import { NotFoundComponent } from './component/not-found/not-found.component';
 import { ContactoComponent } from './component/contacto/contacto.component';
 import { IniciarsesionComponent } from './component/iniciarsesion/iniciarsesion.component';
 import { RegistrarseComponent } from './component/registrarse/registrarse.component';
+import { PaginaProductoComponent } from './component/pagina-producto/pagina-producto.component';
 
 
 export const routes: Routes = [
@@ -15,6 +16,7 @@ export const routes: Routes = [
     { path: 'contacto', title: 'contacto',  component: ContactoComponent },
     { path: 'iniciarsesion', title: 'iniciar sesion',  component: IniciarsesionComponent },
     { path: 'registrarse', title: 'Registrarse',  component: RegistrarseComponent },
+    { path: 'pagina-producto', title: 'Producto1', component: PaginaProductoComponent},
     { path: '**', component: NotFoundComponent },
     
 ];
