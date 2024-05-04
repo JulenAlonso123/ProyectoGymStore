@@ -3,6 +3,18 @@
 # borja lopez
 # Julen Alonso Rodero
 # David lahoz boyero
+
+## PRIMERA REVISIÓN MAQUETACION
+1. En la entrega final, los botones que hay en el banner deben ir hacia algún lugar.
+2. La página de catálogo tiene errores ortográficos.
+3. En la página de catálogo, las tarjetas se distorsionan y varios de sus elementos salen fuera de la tarjeta si la página cambia de tamaño, Necesito al menos que se vean una imagen en nlas tarjetas
+4. No se puede acceder a ninguna página de producto ni de pago
+5. Veo innecesario un botón de regirtarse si tienes un link directo en el inicio de sesión. 
+6. En el inicio de sesión, debe estar el formulario primero y luego las otras opciones
+7. En el formulario de registro, el botón debe decir REGISTARSE y el link de debajo debe ir al inicio de sesión.
+8. La maquetación aun necesita completar algunas cosas. No se encuentra completa. Vuelvo a revisar el 8/5
+## PRIMERA REVISIÓN DOCUMENTACION
+1. ver las observaciones agregadas en el dcumento de Acta de Constitución
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
 ## Development server
