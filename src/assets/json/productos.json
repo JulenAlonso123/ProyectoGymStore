@@ -1,6 +1,7 @@
 {
   "productos": [
     {
+      "id" : 1 ,
       "nombre": "Proteína en Polvo",
       "tipo": "Proteínas",
       "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
@@ -10,7 +11,7 @@
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "bcaas.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg"
         },
         {
           "nombre": "Creatina",
@@ -25,6 +26,7 @@
       ]
     },
     {
+      "id" : 2 ,
       "nombre": "BCAAs",
       "tipo": "Proteínas",
       "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
@@ -49,6 +51,7 @@
       ]
     },
     {
+      "id" : 3 ,
       "nombre": "Creatina",
       "tipo": "Proteínas",
       "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
@@ -73,6 +76,7 @@
       ]
     },
     {
+      "id" : 4 ,
       "nombre": "Omega 3",
       "tipo": "Proteínas",
       "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
@@ -97,6 +101,7 @@
       ]
     },
     {
+      "id" : 5 ,
       "nombre": "Camiseta Deportiva",
       "tipo": "Ropa Deportiva",
       "descripcion": "Camiseta deportiva transpirable para entrenamientos intensos.",
@@ -121,6 +126,7 @@
       ]
     },
     {
+      "id" : 6 ,
       "nombre": "Pantalones Deportivos",
       "tipo": "Ropa Deportiva",
       "descripcion": "Pantalones deportivos cómodos y elásticos para cualquier tipo de ejercicio.",
@@ -145,6 +151,7 @@
       ]
     },
     {
+      "id" : 7 ,
       "nombre": "Sudadera con Capucha",
       "tipo": "Ropa Deportiva",
       "descripcion": "Sudadera con capucha y bolsillos frontales, ideal para entrenamientos al aire libre.",
@@ -169,6 +176,8 @@
       ]
     },
     {
+
+      "id" : 8 ,
       "nombre": "Zapatillas Deportivas",
       "tipo": "Ropa Deportiva",
       "descripcion": "Zapatillas deportivas ligeras y transpirables para correr y entrenar en el gimnasio.",
@@ -193,6 +202,7 @@
       ]
     },
     {
+      "id" : 9 ,
       "nombre": "Bandas de Resistencia",
       "tipo": "Accesorios Fitness",
       "descripcion": "Bandas elásticas de resistencia para ejercicios de fortalecimiento muscular.",
@@ -217,6 +227,8 @@
       ]
     },
     {
+
+      "id" : 10 ,
       "nombre": "Cinta de Correr",
       "tipo": "Accesorios Fitness",
       "descripcion": "Cinta de correr plegable con inclinación ajustable para entrenamientos cardiovasculares en casa.",
@@ -241,6 +253,7 @@
       ]
     },
     {
+      "id" : 11 ,
       "nombre": "Bicicleta Estática",
       "tipo": "Accesorios Fitness",
       "descripcion": "Bicicleta estática con resistencia ajustable y monitor de ritmo cardíaco.",
@@ -265,6 +278,7 @@
       ]
     },
     {
+      "id" : 12 ,
       "nombre": "Mancuernas de Neopreno",
       "tipo": "Accesorios Fitness",
       "descripcion": "Juego de mancuernas recubiertas de neopreno para ejercicios de fuerza.",
@@ -289,6 +303,7 @@
       ]
     },
     {
+      "id" : 13 ,
       "nombre": "Omega 3",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
@@ -313,6 +328,7 @@
       ]
     },
     {
+      "id" : 14 ,
       "nombre": "Creatina",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
@@ -337,6 +353,7 @@
       ]
     },
     {
+      "id" : 15 ,
       "nombre": "BCAAs",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
@@ -361,6 +378,7 @@
       ]
     },
     {
+      "id" : 16 ,
       "nombre": "Proteína en Polvo",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",

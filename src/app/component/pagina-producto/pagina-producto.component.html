@@ -1,15 +1,15 @@
 <section class="py-5">
     <div class="container px-4 px-lg-5 my-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{Productos.foto}}" alt="..." /></div>
             <div class="col-md-6">
-                <div class="small mb-1">SKU: BST-498</div>
-                <h1 class="display-5 fw-bolder">Shop item template</h1>
+                <div class="small mb-1">{{Productos.tipo}}</div>
+                <h1 class="display-5 fw-bolder">{{Productos.nombre}}</h1>
                 <div class="fs-5 mb-5">
                     <span class="text-decoration-line-through">$45.00</span>
-                    <span>$40.00</span>
+                    <span>{{Productos.precio}}</span>
                 </div>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+                <p class="lead">{{Productos.descripcion}}</p>
                 <div class="d-flex">
                     <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                     <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -29,14 +29,14 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                    <img class="card-img-top" src="{{Productos.related_products[1].foto}}" alt="foto Productos Relacionados" />
                     
                     <div class="card-body p-4">
                         <div class="text-center">
                            
-                            <h5 class="fw-bolder">Fancy Product</h5>
+                            <h5 class="fw-bolder">{{Productos.related_products[1].nombre}}</h5>
                             
-                            $40.00 - $80.00
+                            {{Productos.related_products[1].precio}}€
                         </div>
                     </div>
                     

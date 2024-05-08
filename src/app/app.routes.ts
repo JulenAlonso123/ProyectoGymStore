@@ -16,7 +16,8 @@ export const routes: Routes = [
     { path: 'contacto', title: 'contacto',  component: ContactoComponent },
     { path: 'iniciarsesion', title: 'iniciar sesion',  component: IniciarsesionComponent },
     { path: 'registrarse', title: 'Registrarse',  component: RegistrarseComponent },
-    { path: 'pagina-producto', title: 'Producto', component: PaginaProductoComponent},
+    { path: 'pagina-producto/:id', title: 'Producto', component: PaginaProductoComponent},
+    { path: 'pagina-producto/:parametro1/:parametro2/:parametro3/:parametro4/:parametro5', component: PaginaProductoComponent },
     { path: '**', component: NotFoundComponent },
     
 ];
