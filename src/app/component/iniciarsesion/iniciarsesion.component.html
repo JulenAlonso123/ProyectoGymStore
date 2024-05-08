@@ -15,13 +15,6 @@
        </div>
         <h2 class="text-center text-white m-4">Iniciar Sesión con tus credenciales</h2>
         <form action="#">
-            <div class="social-login mb-3">
-                <button class="btn btn-outline-primary border-white text-white w-100 mb-3"><i class="fa-brands fa-google text-danger"></i> Sign With Google</button>
-                <button class="btn btn-outline-primary  border-white text-white w-100 mb-3"><i class="fa-brands fa-facebook-f text-primary"></i> Sign With Facebook</button>
-            </div>
-
-               <hr class="text-secondary divider border-primary">
-
 
             <div class="mb-3">
                 <label fi="email" class="form-label text-white ">Email o Usuario</label>
@@ -32,8 +25,16 @@
                 <input type="password" class="form-control border-primary" id="password" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary login-btn w-100">Iniciar sesión</button>
+
+            
         </form>
 
+    
+        <div class="social-login mt-3">
+            <hr class="text-secondary divider border-primary">
+            <button class="btn btn-outline-primary border-white text-white w-100 mb-3"><i class="fa-brands fa-google text-danger"></i> Sign With Google</button>
+            <button class="btn btn-outline-primary  border-white text-white w-100 mb-3"><i class="fa-brands fa-facebook-f text-primary"></i> Sign With Facebook</button>
+        </div>
         <!-- Register Link -->
         <p class="text-center text-white register-test mt-3">¿Todavía no tienes una cuenta? <a href="#"  aria-current="page" routerLink="/registrarse" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true}"class="text-decoration-none">Registrate aquí</a></p>
     </div>
