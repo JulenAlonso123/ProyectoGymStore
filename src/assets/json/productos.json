@@ -1,195 +1,387 @@
 {
   "productos": [
     {
-      "nombre": "Proteína en polvo Gold Standard",
-      "tipo": "suplementacion deportiva",
-      "descripcion": "Proteína en polvo de suero de leche, ideal para la recuperación muscular después del ejercicio.",
-      "precio": 45.99,
-      "foto": "ruta/a/proteina.jpg",
+      "nombre": "Proteína en Polvo",
+      "tipo": "Proteínas",
+      "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
+      "precio": 35,
+      "foto": "proteina_polvo.jpg",
       "related_products": [
-        {"nombre": "Aislado de proteína de suero", "precio": 39.99, "foto": "ruta/a/aislado.jpg"},
-        {"nombre": "Caseína Micelar", "precio": 49.99, "foto": "ruta/a/caseina.jpg"},
-        {"nombre": "Multivitamínico en tabletas", "precio": 17.99, "foto": "ruta/a/multivitaminico.jpg"}
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     },
     {
-      "nombre": "Leggings de compresión para mujer",
-      "tipo": "ropa deportiva",
-      "descripcion": "Leggings de compresión transpirables, ideales para entrenamientos intensos.",
-      "precio": 29.99,
-      "foto": "ruta/a/leggings.jpg",
+      "nombre": "BCAAs",
+      "tipo": "Proteínas",
+      "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
+      "precio": 25,
+      "foto": "bcaas.jpg",
       "related_products": [
-        {"nombre": "Top deportivo de compresión", "precio": 19.99, "foto": "ruta/a/top.jpg"},
-        {"nombre": "Calcetines de compresión", "precio": 12.99, "foto": "ruta/a/calcetines.jpg"},
-        {"nombre": "Camiseta sin mangas para hombre", "precio": 19.99, "foto": "ruta/a/camiseta.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     },
     {
-      "nombre": "Guantes de levantamiento de pesas",
-      "tipo": "accesorios fitness",
-      "descripcion": "Guantes acolchados para proteger las manos durante el levantamiento de pesas.",
-      "precio": 15.99,
-      "foto": "ruta/a/guantes.jpg",
+      "nombre": "Creatina",
+      "tipo": "Proteínas",
+      "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
+      "precio": 20,
+      "foto": "creatina.jpg",
       "related_products": [
-        {"nombre": "Cuerda para saltar de alta velocidad", "precio": 9.99, "foto": "ruta/a/cuerda.jpg"},
-        {"nombre": "Banda de resistencia de látex", "precio": 7.99, "foto": "ruta/a/banda.jpg"},
-        {"nombre": "Chaleco lastrado ajustable", "precio": 49.99, "foto": "ruta/a/chaleco.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     },
     {
-      "nombre": "Caseína Micelar",
-      "tipo": "suplementacion deportiva",
-      "descripcion": "Proteína de absorción lenta, ideal para tomar antes de dormir para mantener el crecimiento muscular.",
-      "precio": 49.99,
-      "foto": "ruta/a/caseina.jpg",
+      "nombre": "Omega 3",
+      "tipo": "Proteínas",
+      "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
+      "precio": 15,
+      "foto": "omega_3.jpg",
       "related_products": [
-        {"nombre": "Proteína en polvo Gold Standard", "precio": 45.99, "foto": "ruta/a/proteina.jpg"},
-        {"nombre": "Barras energéticas de caseína", "precio": 3.99, "foto": "ruta/a/barras.jpg"},
-        {"nombre": "Bote de glutamina en polvo", "precio": 24.99, "foto": "ruta/a/glutamina.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        }
       ]
     },
     {
-      "nombre": "Camiseta sin mangas para hombre",
-      "tipo": "ropa deportiva",
-      "descripcion": "Camiseta sin mangas transpirable, ideal para entrenamientos de alta intensidad.",
-      "precio": 19.99,
-      "foto": "ruta/a/camiseta.jpg",
+      "nombre": "Camiseta Deportiva",
+      "tipo": "Ropa Deportiva",
+      "descripcion": "Camiseta deportiva transpirable para entrenamientos intensos.",
+      "precio": 25,
+      "foto": "camiseta_deportiva.jpg",
       "related_products": [
-        {"nombre": "Leggings de compresión para hombre", "precio": 32.99, "foto": "ruta/a/leggings_hombre.jpg"},
-        {"nombre": "Calcetines deportivos", "precio": 8.99, "foto": "ruta/a/calcetines_deportivos.jpg"},
-        {"nombre": "Chaqueta deportiva cortavientos", "precio": 34.99, "foto": "ruta/a/chaqueta.jpg"}
+        {
+          "nombre": "Pantalones Deportivos",
+          "precio": 30,
+          "foto": "pantalones_deportivos.jpg"
+        },
+        {
+          "nombre": "Zapatillas Deportivas",
+          "precio": 60,
+          "foto": "zapatillas_deportivas.jpg"
+        },
+        {
+          "nombre": "Sudadera con Capucha",
+          "precio": 40,
+          "foto": "sudadera_capucha.jpg"
+        }
       ]
     },
     {
-      "nombre": "Cuerda para saltar de alta velocidad",
-      "tipo": "accesorios fitness",
-      "descripcion": "Cuerda de saltar ajustable, perfecta para entrenamientos cardiovasculares intensos.",
-      "precio": 9.99,
-      "foto": "ruta/a/cuerda.jpg",
+      "nombre": "Pantalones Deportivos",
+      "tipo": "Ropa Deportiva",
+      "descripcion": "Pantalones deportivos cómodos y elásticos para cualquier tipo de ejercicio.",
+      "precio": 30,
+      "foto": "pantalones_deportivos.jpg",
       "related_products": [
-        {"nombre": "Banda de resistencia de látex", "precio": 7.99, "foto": "ruta/a/banda.jpg"},
-        {"nombre": "Mancuernas ajustables", "precio": 89.99, "foto": "ruta/a/mancuernas.jpg"},
-        {"nombre": "Chaleco lastrado ajustable", "precio": 49.99, "foto": "ruta/a/chaleco.jpg"}
+        {
+          "nombre": "Camiseta Deportiva",
+          "precio": 25,
+          "foto": "camiseta_deportiva.jpg"
+        },
+        {
+          "nombre": "Sudadera con Capucha",
+          "precio": 40,
+          "foto": "sudadera_capucha.jpg"
+        },
+        {
+          "nombre": "Zapatillas Deportivas",
+          "precio": 60,
+          "foto": "zapatillas_deportivas.jpg"
+        }
       ]
     },
     {
-      "nombre": "Multivitamínico en tabletas",
-      "tipo": "suplementacion deportiva",
-      "descripcion": "Fórmula multivitamínica diseñada para deportistas, para mantener una salud óptima.",
-      "precio": 17.99,
-      "foto": "ruta/a/multivitaminico.jpg",
+      "nombre": "Sudadera con Capucha",
+      "tipo": "Ropa Deportiva",
+      "descripcion": "Sudadera con capucha y bolsillos frontales, ideal para entrenamientos al aire libre.",
+      "precio": 40,
+      "foto": "sudadera_capucha.jpg",
       "related_products": [
-        {"nombre": "Omega-3 en cápsulas", "precio": 12.99, "foto": "ruta/a/omega3.jpg"},
-        {"nombre": "Bote de glutamina en polvo", "precio": 24.99, "foto": "ruta/a/glutamina.jpg"},
-        {"nombre": "Botella de agua deportiva", "precio": 5.99, "foto": "ruta/a/botella.jpg"}
+        {
+          "nombre": "Camiseta Deportiva",
+          "precio": 25,
+          "foto": "camiseta_deportiva.jpg"
+        },
+        {
+          "nombre": "Pantalones Deportivos",
+          "precio": 30,
+          "foto": "pantalones_deportivos.jpg"
+        },
+        {
+          "nombre": "Zapatillas Deportivas",
+          "precio": 60,
+          "foto": "zapatillas_deportivas.jpg"
+        }
       ]
     },
     {
-      "nombre": "Mancuernas ajustables",
-      "tipo": "accesorios fitness",
-      "descripcion": "Mancuernas con peso ajustable, perfectas para entrenamientos en casa.",
-      "precio": 89.99,
-      "foto": "ruta/a/mancuernas.jpg",
+      "nombre": "Zapatillas Deportivas",
+      "tipo": "Ropa Deportiva",
+      "descripcion": "Zapatillas deportivas ligeras y transpirables para correr y entrenar en el gimnasio.",
+      "precio": 60,
+      "foto": "zapatillas_deportivas.jpg",
       "related_products": [
-        {"nombre": "Banda de resistencia de látex", "precio": 7.99, "foto": "ruta/a/banda.jpg"},
-        {"nombre": "Cuerda para saltar de alta velocidad", "precio": 9.99, "foto": "ruta/a/cuerda.jpg"},
-        {"nombre": "Chaleco lastrado ajustable", "precio": 49.99, "foto": "ruta/a/chaleco.jpg"}
+        {
+          "nombre": "Camiseta Deportiva",
+          "precio": 25,
+          "foto": "camiseta_deportiva.jpg"
+        },
+        {
+          "nombre": "Calcetines Deportivos",
+          "precio": 10,
+          "foto": "calcetines_deportivos.jpg"
+        },
+        {
+          "nombre": "Sudadera con Capucha",
+          "precio": 40,
+          "foto": "sudadera_capucha.jpg"
+        }
       ]
     },
     {
-      "nombre": "Top deportivo de compresión",
-      "tipo": "ropa deportiva",
-      "descripcion": "Top deportivo de compresión para una sujeción óptima durante el ejercicio.",
-      "precio": 19.99,
-      "foto": "ruta/a/top.jpg",
+      "nombre": "Bandas de Resistencia",
+      "tipo": "Accesorios Fitness",
+      "descripcion": "Bandas elásticas de resistencia para ejercicios de fortalecimiento muscular.",
+      "precio": 15,
+      "foto": "bandas_resistencia.jpg",
       "related_products": [
-        {"nombre": "Leggings de compresión para mujer", "precio": 29.99, "foto": "ruta/a/leggings.jpg"},
-        {"nombre": "Calcetines de compresión", "precio": 12.99, "foto": "ruta/a/calcetines.jpg"},
-        {"nombre": "Sudadera con capucha para mujer", "precio": 39.99, "foto": "ruta/a/sudadera.jpg"}
+        {
+          "nombre": "Cinta de Correr",
+          "precio": 600,
+          "foto": "cinta_correr.jpg"
+        },
+        {
+          "nombre": "Bicicleta Estática",
+          "precio": 250,
+          "foto": "bicicleta_estatica.jpg"
+        },
+        {
+          "nombre": "Mancuernas de Neopreno",
+          "precio": 50,
+          "foto": "mancuernas_neopreno.jpg"
+        }
       ]
     },
     {
-      "nombre": "Barras energéticas de avena y frutos secos",
-      "tipo": "proteinas",
-      "descripcion": "Barras energéticas ricas en proteínas, fibra y grasas saludables, perfectas como snack después del entrenamiento.",
-      "precio": 3.99,
-      "foto": "ruta/a/barras_avena.jpg",
+      "nombre": "Cinta de Correr",
+      "tipo": "Accesorios Fitness",
+      "descripcion": "Cinta de correr plegable con inclinación ajustable para entrenamientos cardiovasculares en casa.",
+      "precio": 600,
+      "foto": "cinta_correr.jpg",
       "related_products": [
-        {"nombre": "Proteína en polvo Gold Standard", "precio": 45.99, "foto": "ruta/a/proteina.jpg"},
-        {"nombre": "Barra energética de proteínas", "precio": 2.99, "foto": "ruta/a/barra.jpg"},
-        {"nombre": "Caseína Micelar", "precio": 49.99, "foto": "ruta/a/caseina.jpg"}
+        {
+          "nombre": "Bicicleta Estática",
+          "precio": 250,
+          "foto": "bicicleta_estatica.jpg"
+        },
+        {
+          "nombre": "Bandas de Resistencia",
+          "precio": 15,
+          "foto": "bandas_resistencia.jpg"
+        },
+        {
+          "nombre": "Mancuernas de Neopreno",
+          "precio": 50,
+          "foto": "mancuernas_neopreno.jpg"
+        }
       ]
     },
     {
-      "nombre": "Chaleco lastrado ajustable",
-      "tipo": "accesorios fitness",
-      "descripcion": "Chaleco lastrado con peso ajustable, ideal para añadir resistencia a tus entrenamientos.",
-      "precio": 49.99,
-      "foto": "ruta/a/chaleco.jpg",
+      "nombre": "Bicicleta Estática",
+      "tipo": "Accesorios Fitness",
+      "descripcion": "Bicicleta estática con resistencia ajustable y monitor de ritmo cardíaco.",
+      "precio": 250,
+      "foto": "bicicleta_estatica.jpg",
       "related_products": [
-        {"nombre": "Bandas de resistencia de látex", "precio": 7.99, "foto": "ruta/a/banda.jpg"},
-        {"nombre": "Mancuernas ajustables", "precio": 89.99, "foto": "ruta/a/mancuernas.jpg"},
-        {"nombre": "Cuerda para saltar de alta velocidad", "precio": 9.99, "foto": "ruta/a/cuerda.jpg"}
+        {
+          "nombre": "Cinta de Correr",
+          "precio": 600,
+          "foto": "cinta_correr.jpg"
+        },
+        {
+          "nombre": "Bandas de Resistencia",
+          "precio": 15,
+          "foto": "bandas_resistencia.jpg"
+        },
+        {
+          "nombre": "Mancuernas de Neopreno",
+          "precio": 50,
+          "foto": "mancuernas_neopreno.jpg"
+        }
       ]
     },
     {
-      "nombre": "Leggings de compresión para hombre",
-      "tipo": "ropa deportiva",
-      "descripcion": "Leggings de compresión para hombres, diseñados para mejorar la circulación y reducir la fatiga muscular.",
-      "precio": 32.99,
-      "foto": "ruta/a/leggings_hombre.jpg",
+      "nombre": "Mancuernas de Neopreno",
+      "tipo": "Accesorios Fitness",
+      "descripcion": "Juego de mancuernas recubiertas de neopreno para ejercicios de fuerza.",
+      "precio": 50,
+      "foto": "mancuernas_neopreno.jpg",
       "related_products": [
-        {"nombre": "Camiseta sin mangas para hombre", "precio": 19.99, "foto": "ruta/a/camiseta.jpg"},
-        {"nombre": "Calcetines deportivos", "precio": 8.99, "foto": "ruta/a/calcetines_deportivos.jpg"},
-        {"nombre": "Chaqueta deportiva cortavientos", "precio": 34.99, "foto": "ruta/a/chaqueta.jpg"}
+        {
+          "nombre": "Bandas de Resistencia",
+          "precio": 15,
+          "foto": "bandas_resistencia.jpg"
+        },
+        {
+          "nombre": "Cinta de Correr",
+          "precio": 600,
+          "foto": "cinta_correr.jpg"
+        },
+        {
+          "nombre": "Bicicleta Estática",
+          "precio": 250,
+          "foto": "bicicleta_estatica.jpg"
+        }
       ]
     },
     {
-      "nombre": "Banda de resistencia de látex",
-      "tipo": "accesorios fitness",
-      "descripcion": "Banda de resistencia de látex de alta calidad, perfecta para ejercicios de fortalecimiento muscular.",
-      "precio": 7.99,
-      "foto": "ruta/a/banda.jpg",
+      "nombre": "Omega 3",
+      "tipo": "Suplementación Deportiva",
+      "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
+      "precio": 15,
+      "foto": "omega_3.jpg",
       "related_products": [
-        {"nombre": "Guantes de levantamiento de pesas", "precio": 15.99, "foto": "ruta/a/guantes.jpg"},
-        {"nombre": "Cuerda para saltar de alta velocidad", "precio": 9.99, "foto": "ruta/a/cuerda.jpg"},
-        {"nombre": "Mancuernas ajustables", "precio": 89.99, "foto": "ruta/a/mancuernas.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        }
       ]
     },
     {
-      "nombre": "Bote de glutamina en polvo",
-      "tipo": "suplementacion deportiva",
-      "descripcion": "Glutamina en polvo para promover la recuperación muscular y fortalecer el sistema inmunológico.",
-      "precio": 24.99,
-      "foto": "ruta/a/glutamina.jpg",
+      "nombre": "Creatina",
+      "tipo": "Suplementación Deportiva",
+      "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
+      "precio": 20,
+      "foto": "creatina.jpg",
       "related_products": [
-        {"nombre": "Proteína en polvo Gold Standard", "precio": 45.99, "foto": "ruta/a/proteina.jpg"},
-        {"nombre": "Caseína Micelar", "precio": 49.99, "foto": "ruta/a/caseina.jpg"},
-        {"nombre": "Multivitamínico en tabletas", "precio": 17.99, "foto": "ruta/a/multivitaminico.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     },
     {
-      "nombre": "Sudadera con capucha para mujer",
-      "tipo": "ropa deportiva",
-      "descripcion": "Sudadera con capucha transpirable, perfecta para calentar antes del entrenamiento o para usar después de hacer ejercicio.",
-      "precio": 39.99,
-      "foto": "ruta/a/sudadera.jpg",
+      "nombre": "BCAAs",
+      "tipo": "Suplementación Deportiva",
+      "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
+      "precio": 25,
+      "foto": "bcaas.jpg",
       "related_products": [
-        {"nombre": "Leggings de compresión para mujer", "precio": 29.99, "foto": "ruta/a/leggings.jpg"},
-        {"nombre": "Calcetines de compresión", "precio": 12.99, "foto": "ruta/a/calcetines.jpg"},
-        {"nombre": "Top deportivo de compresión", "precio": 19.99, "foto": "ruta/a/top.jpg"}
+        {
+          "nombre": "Proteína en Polvo",
+          "precio": 35,
+          "foto": "proteina_polvo.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     },
     {
-      "nombre": "Barra energética de proteínas",
-      "tipo": "proteinas",
-      "descripcion": "Barra energética con alto contenido de proteínas, ideal para mantener la energía durante el ejercicio.",
-      "precio": 2.99,
-      "foto": "ruta/a/barra.jpg",
+      "nombre": "Proteína en Polvo",
+      "tipo": "Suplementación Deportiva",
+      "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
+      "precio": 35,
+      "foto": "proteina_polvo.jpg",
       "related_products": [
-        {"nombre": "Proteína en polvo Gold Standard", "precio": 45.99, "foto": "ruta/a/proteina.jpg"},
-        {"nombre": "Barras energéticas de avena y frutos secos", "precio": 3.99, "foto": "ruta/a/barras_avena.jpg"},
-        {"nombre": "Bote de glutamina en polvo", "precio": 24.99, "foto": "ruta/a/glutamina.jpg"}
+        {
+          "nombre": "BCAAs",
+          "precio": 25,
+          "foto": "bcaas.jpg"
+        },
+        {
+          "nombre": "Creatina",
+          "precio": 20,
+          "foto": "creatina.jpg"
+        },
+        {
+          "nombre": "Omega 3",
+          "precio": 15,
+          "foto": "omega_3.jpg"
+        }
       ]
     }
   ]
