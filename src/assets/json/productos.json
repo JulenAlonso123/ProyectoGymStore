@@ -5,7 +5,7 @@
       "tipo": "Proteínas",
       "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
       "precio": 35,
-      "foto": "proteina_polvo.jpg",
+      "foto": "./assets/images/img_productos/imagenProteina.jpg",
       "related_products": [
         {
           "nombre": "BCAAs",
@@ -29,7 +29,7 @@
       "tipo": "Proteínas",
       "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
       "precio": 25,
-      "foto": "bcaas.jpg",
+      "foto": "./assets/images/img_productos/proteina2.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",

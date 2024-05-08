@@ -8,8 +8,8 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row row-cols-md-4">
       @for (Productos of Productos.productos; track Productos) {
       <div class="col">
-        <div class="card shadow-sm " style="height: 500px;">
-          <img src="{{Productos.foto}}" alt="imagen card">
+        <div class="card shadow-sm ">
+          <img src="{{Productos.foto}}" alt="imagen card" style="height: 60%; width: 100%;">
           <div class="card-body">
             <div class="col-12">
                 <h4 class="card-title">{{Productos.nombre}}</h4>
