@@ -17,12 +17,12 @@
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "creatina.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg"
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "omega_3.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg"
         }
       ]
     },
@@ -38,17 +38,17 @@
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg"
         },
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "creatina.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg"
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "omega_3.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg"
         }
       ]
     },
@@ -59,12 +59,12 @@
       "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
       "descripcion_extendida": "La creatina es uno de los suplementos más estudiados y utilizados en el mundo del fitness y el deporte. Al aumentar los niveles de fosfocreatina en los músculos, ayuda a mejorar la fuerza, la potencia y la resistencia durante los entrenamientos de alta intensidad. Además, la creatina puede favorecer la recuperación muscular y aumentar la síntesis de proteínas. Este suplemento es esencial para cualquier persona que busque mejorar su rendimiento en el gimnasio o en su deporte favorito.",
       "precio": 20,
-      "foto": "./assets/images/img_productos/proteina2.jpg",
+      "foto": "./assets/images/img_productos/proteina3.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "./assets/images/img_productos/proteina2.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg"
         },
         {
           "nombre": "BCAAs",
@@ -74,7 +74,7 @@
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "./assets/images/img_productos/proteina2.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg"
         }
       ]
     },
@@ -95,12 +95,12 @@
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "bcaas.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg"
         },
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "creatina.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg"
         }
       ]
     },
@@ -116,17 +116,17 @@
         {
           "nombre": "Pantalones Deportivos",
           "precio": 30,
-          "foto": "pantalones_deportivos.jpg"
+          "foto": "./assets/images/img_productos/ropa2.jpg"
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "zapatillas_deportivas.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg"
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "sudadera_capucha.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg"
         }
       ]
     },
@@ -142,17 +142,17 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "camiseta_deportiva.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg"
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "sudadera_capucha.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg"
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "zapatillas_deportivas.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg"
         }
       ]
     },
@@ -168,17 +168,17 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "camiseta_deportiva.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg"
         },
         {
           "nombre": "Pantalones Deportivos",
           "precio": 30,
-          "foto": "pantalones_deportivos.jpg"
+          "foto": "./assets/images/img_productos/ropa2.jpg"
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "zapatillas_deportivas.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg"
         }
       ]
     },
@@ -194,17 +194,17 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "camiseta_deportiva.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg"
         },
         {
-          "nombre": "Calcetines Deportivos",
-          "precio": 10,
-          "foto": "calcetines_deportivos.jpg"
+          "nombre": "Pantalones Deportivos",
+          "precio": 30,
+          "foto": "./assets/images/img_productos/ropa2.jpg"
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "sudadera_capucha.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg"
         }
       ]
     },
@@ -314,12 +314,12 @@
     },
     {
       "id": 13,
-      "nombre": "Omega 3",
+      "nombre": "Barrita energetica",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
       "descripcion_extendida": "Los ácidos grasos omega 3 son esenciales para la salud del corazón, el cerebro y las articulaciones. Este suplemento proporciona una dosis concentrada de ácidos grasos EPA y DHA, que son especialmente beneficiosos para reducir la inflamación, promover la salud cardiovascular y mejorar la recuperación muscular. Ideal para aquellos que desean maximizar su salud y rendimiento físico.",
       "precio": 15,
-      "foto": "omega_3.jpg",
+      "foto": "./assets/images/img_productos/suplemento1.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
@@ -340,12 +340,12 @@
     },
     {
       "id": 14,
-      "nombre": "Creatina",
+      "nombre": "Fit Chips",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
       "descripcion_extendida": "La creatina es uno de los suplementos más estudiados y utilizados en el mundo del fitness y el deporte. Al aumentar los niveles de fosfocreatina en los músculos, ayuda a mejorar la fuerza, la potencia y la resistencia durante los entrenamientos de alta intensidad. Además, la creatina puede favorecer la recuperación muscular y aumentar la síntesis de proteínas. Este suplemento es esencial para cualquier persona que busque mejorar su rendimiento en el gimnasio o en su deporte favorito.",
       "precio": 20,
-      "foto": "creatina.jpg",
+      "foto": "./assets/images/img_productos/suplemento2.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
@@ -366,12 +366,12 @@
     },
     {
       "id": 15,
-      "nombre": "BCAAs",
+      "nombre": "Galletas Fit",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
       "descripcion_extendida": "Los BCAAs, o aminoácidos de cadena ramificada, son fundamentales para la síntesis de proteínas musculares y la recuperación después del ejercicio. Este suplemento en polvo ofrece una forma rápida y conveniente de proporcionar a los músculos los nutrientes necesarios para reparar y crecer más fuertes. Ideal para consumir antes, durante o después del entrenamiento, los BCAAs ayudan a reducir la fatiga muscular y mejorar el rendimiento.",
       "precio": 25,
-      "foto": "bcaas.jpg",
+      "foto": "./assets/images/img_productos/suplemento3.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
@@ -392,12 +392,12 @@
     },
     {
       "id": 16,
-      "nombre": "Proteína en Polvo",
+      "nombre": "Crema de Cacahuete",
       "tipo": "Suplementación Deportiva",
       "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
       "descripcion_extendida": "La proteína en polvo es un suplemento esencial para quienes buscan maximizar su rendimiento deportivo y optimizar la recuperación muscular. Esta proteína en polvo está diseñada para proporcionar a tus músculos los aminoácidos necesarios para reparar y construir tejido muscular después del ejercicio intenso. Con una combinación equilibrada de aminoácidos de alta calidad, esta proteína te ayuda a alcanzar tus objetivos de fuerza y ​​masa muscular magra. Además, su fácil digestión y rápida absorción la convierten en una opción perfecta para consumir después del entrenamiento. ¡Agrega esta proteína en polvo a tu rutina diaria y maximiza tus resultados!",
       "precio": 35,
-      "foto": "proteina_polvo.jpg",
+      "foto": "./assets/images/img_productos/suplemento4.jpg",
       "related_products": [
         {
           "nombre": "BCAAs",
