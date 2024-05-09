@@ -3,6 +3,7 @@ export interface ProductoUnico {
     nombre: string
     tipo: string
     descripcion: string
+    descripcion_extendida:string
     precio: number
     foto: string
     related_products: RelatedProduct[]
