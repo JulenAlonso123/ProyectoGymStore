@@ -81,12 +81,12 @@
       "tipo": "Proteínas",
       "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
       "precio": 15,
-      "foto": "omega_3.jpg",
+      "foto": "./assets/images/img_productos/proteina4.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg"
         },
         {
           "nombre": "BCAAs",
@@ -106,7 +106,7 @@
       "tipo": "Ropa Deportiva",
       "descripcion": "Camiseta deportiva transpirable para entrenamientos intensos.",
       "precio": 25,
-      "foto": "camiseta_deportiva.jpg",
+      "foto": "./assets/images/img_productos/ropa1.jpg",
       "related_products": [
         {
           "nombre": "Pantalones Deportivos",
@@ -131,7 +131,7 @@
       "tipo": "Ropa Deportiva",
       "descripcion": "Pantalones deportivos cómodos y elásticos para cualquier tipo de ejercicio.",
       "precio": 30,
-      "foto": "pantalones_deportivos.jpg",
+      "foto": "./assets/images/img_productos/ropa2.jpg",
       "related_products": [
         {
           "nombre": "Camiseta Deportiva",
@@ -156,7 +156,7 @@
       "tipo": "Ropa Deportiva",
       "descripcion": "Sudadera con capucha y bolsillos frontales, ideal para entrenamientos al aire libre.",
       "precio": 40,
-      "foto": "sudadera_capucha.jpg",
+      "foto": "./assets/images/img_productos/ropa3.jpg",
       "related_products": [
         {
           "nombre": "Camiseta Deportiva",
@@ -182,7 +182,7 @@
       "tipo": "Ropa Deportiva",
       "descripcion": "Zapatillas deportivas ligeras y transpirables para correr y entrenar en el gimnasio.",
       "precio": 60,
-      "foto": "zapatillas_deportivas.jpg",
+      "foto": "./assets/images/img_productos/ropa4.jpg",
       "related_products": [
         {
           "nombre": "Camiseta Deportiva",
@@ -207,7 +207,7 @@
       "tipo": "Accesorios Fitness",
       "descripcion": "Bandas elásticas de resistencia para ejercicios de fortalecimiento muscular.",
       "precio": 15,
-      "foto": "bandas_resistencia.jpg",
+      "foto": "./assets/images/img_productos/accesorio1.jpg",
       "related_products": [
         {
           "nombre": "Cinta de Correr",
@@ -233,7 +233,7 @@
       "tipo": "Accesorios Fitness",
       "descripcion": "Cinta de correr plegable con inclinación ajustable para entrenamientos cardiovasculares en casa.",
       "precio": 600,
-      "foto": "cinta_correr.jpg",
+      "foto": "./assets/images/img_productos/accesorio2.jpg",
       "related_products": [
         {
           "nombre": "Bicicleta Estática",
@@ -258,7 +258,7 @@
       "tipo": "Accesorios Fitness",
       "descripcion": "Bicicleta estática con resistencia ajustable y monitor de ritmo cardíaco.",
       "precio": 250,
-      "foto": "bicicleta_estatica.jpg",
+      "foto": "./assets/images/img_productos/accesorio3.jpg",
       "related_products": [
         {
           "nombre": "Cinta de Correr",
@@ -283,7 +283,7 @@
       "tipo": "Accesorios Fitness",
       "descripcion": "Juego de mancuernas recubiertas de neopreno para ejercicios de fuerza.",
       "precio": 50,
-      "foto": "mancuernas_neopreno.jpg",
+      "foto": "./assets/images/img_productos/accesorio4.jpg",
       "related_products": [
         {
           "nombre": "Bandas de Resistencia",
