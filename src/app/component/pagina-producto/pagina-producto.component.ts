@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { ProductoUnico } from '../../common/producto-unico';
 import { DataService } from '../../service/data.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-pagina-producto',
   standalone: true,
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, RouterLink, RouterLinkActive],
   templateUrl: './pagina-producto.component.html',
   styleUrl: './pagina-producto.component.css'
 })

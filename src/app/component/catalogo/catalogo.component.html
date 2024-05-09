@@ -5,8 +5,9 @@
         Proteinas
       </h2>
     </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row row-cols-md-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row row-cols-md-4" >
       @for (Productos of Productos.productos; track Productos) {
+    
       <div class="col">
         <div class="card shadow-sm ">
           <img src="{{Productos.foto}}" alt="imagen card" style="height: 60%; width: 100%;">
@@ -20,12 +21,12 @@
                 <button type="button" class="btn btn-sm btn-outline-secondary" [routerLink]="['/pagina-producto/' + Productos.id]">Ver Detalles</button>
                 <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
               </div>
-              <small class="text-body-primary">{{Productos.precio}}€</small>
+              <p class="text-body-primary">{{Productos.precio}}€</p>
             </div>
           </div>
         </div>
       </div>
-      }
-    </div>
+    }
+  </div>
  
 </div>

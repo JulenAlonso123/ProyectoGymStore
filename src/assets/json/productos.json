@@ -30,7 +30,7 @@
       "id": 2,
       "nombre": "BCAAs",
       "tipo": "Proteínas",
-      "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
+      "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular",
       "descripcion_extendida": "Los BCAAs, o aminoácidos de cadena ramificada, son fundamentales para la síntesis de proteínas musculares y la recuperación después del ejercicio. Este suplemento en polvo ofrece una forma rápida y conveniente de proporcionar a los músculos los nutrientes necesarios para reparar y crecer más fuertes. Ideal para consumir antes, durante o después del entrenamiento, los BCAAs ayudan a reducir la fatiga muscular y mejorar el rendimiento.",
       "precio": 25,
       "foto": "./assets/images/img_productos/proteina2.jpg",
@@ -220,17 +220,17 @@
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "cinta_correr.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg"
         },
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "bicicleta_estatica.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg"
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "mancuernas_neopreno.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg"
         }
       ]
     },
@@ -246,17 +246,17 @@
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "bicicleta_estatica.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg"
         },
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "bandas_resistencia.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg"
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "mancuernas_neopreno.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg"
         }
       ]
     },
@@ -272,17 +272,17 @@
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "cinta_correr.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg"
         },
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "bandas_resistencia.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg"
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "mancuernas_neopreno.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg"
         }
       ]
     },
@@ -298,17 +298,17 @@
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "bandas_resistencia.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg"
         },
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "cinta_correr.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg"
         },
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "bicicleta_estatica.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg"
         }
       ]
     },
@@ -316,25 +316,25 @@
       "id": 13,
       "nombre": "Barrita energetica",
       "tipo": "Suplementación Deportiva",
-      "descripcion": "Suplemento de omega 3 en cápsulas para promover la salud cardiovascular y la recuperación muscular.",
-      "descripcion_extendida": "Los ácidos grasos omega 3 son esenciales para la salud del corazón, el cerebro y las articulaciones. Este suplemento proporciona una dosis concentrada de ácidos grasos EPA y DHA, que son especialmente beneficiosos para reducir la inflamación, promover la salud cardiovascular y mejorar la recuperación muscular. Ideal para aquellos que desean maximizar su salud y rendimiento físico.",
-      "precio": 15,
+      "descripcion": " Snack compacto diseñado para proporcionar un rápido impulso de energía.",
+      "descripcion_extendida": "Una barrita energética es un snack compacto y fácil de llevar, especialmente diseñado para proporcionar un impulso rápido de energía. Está compuesta principalmente de carbohidratos simples y complejos, así como de otros ingredientes energéticos como frutas secas, semillas y cereales. Es ideal para consumir antes o durante actividades físicas intensas o como una opción rápida y conveniente para combatir la fatiga durante el día.",
+      "precio": 5,
       "foto": "./assets/images/img_productos/suplemento1.jpg",
       "related_products": [
         {
-          "nombre": "Proteína en Polvo",
-          "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "nombre": "Fit Chips",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento2.jpg"
         },
         {
-          "nombre": "BCAAs",
-          "precio": 25,
-          "foto": "bcaas.jpg"
+          "nombre": "Galletas Fit",
+          "precio": 15,
+          "foto": "./assets/images/img_productos/suplemento3.jpg"
         },
         {
-          "nombre": "Creatina",
-          "precio": 20,
-          "foto": "creatina.jpg"
+          "nombre": "Crema de Cacahuete",
+          "precio": 15,
+          "foto": "./assets/images/img_productos/suplemento4.jpg"
         }
       ]
     },
@@ -348,19 +348,19 @@
       "foto": "./assets/images/img_productos/suplemento2.jpg",
       "related_products": [
         {
-          "nombre": "Proteína en Polvo",
-          "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg"
         },
         {
-          "nombre": "BCAAs",
+          "nombre": "Galletas Fit",
           "precio": 25,
-          "foto": "bcaas.jpg"
+          "foto": "./assets/images/img_productos/suplemento3.jpg"
         },
         {
-          "nombre": "Omega 3",
-          "precio": 15,
-          "foto": "omega_3.jpg"
+          "nombre": "Crema de Cacahuete",
+          "precio": 35,
+          "foto": "./assets/images/img_productos/suplemento4.jpg"
         }
       ]
     },
@@ -374,19 +374,19 @@
       "foto": "./assets/images/img_productos/suplemento3.jpg",
       "related_products": [
         {
-          "nombre": "Proteína en Polvo",
+          "nombre": "Crema de Cacahuete",
           "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "foto": "./assets/images/img_productos/suplemento4.jpg"
         },
         {
-          "nombre": "Creatina",
+          "nombre": "Fit Chips",
           "precio": 20,
-          "foto": "creatina.jpg"
+          "foto": "./assets/images/img_productos/suplemento2.jpg"
         },
         {
-          "nombre": "Omega 3",
-          "precio": 15,
-          "foto": "omega_3.jpg"
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg"
         }
       ]
     },
@@ -400,19 +400,19 @@
       "foto": "./assets/images/img_productos/suplemento4.jpg",
       "related_products": [
         {
-          "nombre": "BCAAs",
+          "nombre": "Galletas Fit",
           "precio": 25,
-          "foto": "bcaas.jpg"
+          "foto": "./assets/images/img_productos/suplemento3.jpg"
         },
         {
-          "nombre": "Creatina",
+          "nombre": "Fit Chips",
           "precio": 20,
-          "foto": "creatina.jpg"
+          "foto": "./assets/images/img_productos/suplemento2.jpg"
         },
         {
-          "nombre": "Omega 3",
-          "precio": 15,
-          "foto": "omega_3.jpg"
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg"
         }
       ]
     }
