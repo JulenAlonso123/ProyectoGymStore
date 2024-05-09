@@ -6,8 +6,9 @@
                 <div class="small mb-1">{{Productos.tipo}}</div>
                 <h1 class="display-5 fw-bolder">{{Productos.nombre}}</h1>
                 <div class="fs-5 mb-5">
-                    <span class="text-decoration-line-through">$45.00</span>
-                    <span>{{Productos.precio}}</span>
+                    <span class="text-decoration-line-through text-danger" >{{Productos.precio + 20 + '€  '}}</span>
+
+                    <span class="fs-5"><strong>{{Productos.precio}}€</strong></span>
                 </div>
                 <p class="lead">{{Productos.descripcion}}</p>
                 <div class="d-flex">
@@ -29,14 +30,14 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     
-                    <img class="card-img-top" src="{{Productos.related_products[1].foto}}" alt="foto Productos Relacionados" />
+                    <img class="card-img-top" src="{{Productos.related_products[0].foto}}" alt="foto Productos Relacionados" />
                     
                     <div class="card-body p-4">
                         <div class="text-center">
                            
-                            <h5 class="fw-bolder">{{Productos.related_products[1].nombre}}</h5>
+                            <h5 class="fw-bolder">{{Productos.related_products[0].nombre}}</h5>
                             
-                            {{Productos.related_products[1].precio}}€
+                            {{Productos.related_products[0].precio}}€
                         </div>
                     </div>
                     

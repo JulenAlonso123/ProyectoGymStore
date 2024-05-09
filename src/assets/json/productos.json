@@ -56,22 +56,22 @@
       "tipo": "Proteínas",
       "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
       "precio": 20,
-      "foto": "creatina.jpg",
+      "foto": "./assets/images/img_productos/proteina2.jpg",
       "related_products": [
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "proteina_polvo.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg"
         },
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "bcaas.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg"
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "omega_3.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg"
         }
       ]
     },

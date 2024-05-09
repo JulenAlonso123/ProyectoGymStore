@@ -5,8 +5,8 @@
 # David lahoz boyero
 
 ## PRIMERA REVISIÓN MAQUETACION
-1. En la entrega final, los botones que hay en el banner deben ir hacia algún lugar.
-2. La página de catálogo tiene errores ortográficos.
+1. <!--En la entrega final, los botones que hay en el banner deben ir hacia algún lugar.-->
+2. <!--La página de catálogo tiene errores ortográficos.-->
 3. En la página de catálogo, las tarjetas se distorsionan y varios de sus elementos salen fuera de la tarjeta si la página cambia de tamaño, Necesito al menos que se vean una imagen en nlas tarjetas
 4. No se puede acceder a ninguna página de producto ni de pago
 5. Veo innecesario un botón de regirtarse si tienes un link directo en el inicio de sesión. 
