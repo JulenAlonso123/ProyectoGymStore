@@ -12,17 +12,20 @@
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "./assets/images/img_productos/proteina2.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg",
+          "id": 2
         },
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "./assets/images/img_productos/proteina3.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg",
+          "id": 3
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "./assets/images/img_productos/proteina4.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg",
+          "id": 4
         }
       ]
     },
@@ -38,17 +41,20 @@
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "./assets/images/img_productos/imagenProteina.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg",
+          "id": 1
         },
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "./assets/images/img_productos/proteina3.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg",
+          "id": 3
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "./assets/images/img_productos/proteina4.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg",
+          "id": 4
         }
       ]
     },
@@ -64,17 +70,20 @@
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "./assets/images/img_productos/imagenProteina.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg",
+          "id": 1
         },
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "./assets/images/img_productos/proteina2.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg",
+          "id": 2
         },
         {
           "nombre": "Omega 3",
           "precio": 15,
-          "foto": "./assets/images/img_productos/proteina4.jpg"
+          "foto": "./assets/images/img_productos/proteina4.jpg",
+          "id": 4
         }
       ]
     },
@@ -90,17 +99,20 @@
         {
           "nombre": "Proteína en Polvo",
           "precio": 35,
-          "foto": "./assets/images/img_productos/imagenProteina.jpg"
+          "foto": "./assets/images/img_productos/imagenProteina.jpg",
+          "id": 1
         },
         {
           "nombre": "BCAAs",
           "precio": 25,
-          "foto": "./assets/images/img_productos/proteina2.jpg"
+          "foto": "./assets/images/img_productos/proteina2.jpg",
+          "id": 2
         },
         {
           "nombre": "Creatina",
           "precio": 20,
-          "foto": "./assets/images/img_productos/proteina3.jpg"
+          "foto": "./assets/images/img_productos/proteina3.jpg",
+          "id": 3
         }
       ]
     },
@@ -116,17 +128,20 @@
         {
           "nombre": "Pantalones Deportivos",
           "precio": 30,
-          "foto": "./assets/images/img_productos/ropa2.jpg"
+          "foto": "./assets/images/img_productos/ropa2.jpg",
+          "id": 6
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "./assets/images/img_productos/ropa4.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg",
+          "id": 8
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "./assets/images/img_productos/ropa3.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg",
+          "id": 7
         }
       ]
     },
@@ -142,17 +157,20 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "./assets/images/img_productos/ropa1.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg",
+          "id": 5
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "./assets/images/img_productos/ropa3.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg",
+          "id": 7
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "./assets/images/img_productos/ropa4.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg",
+          "id": 8
         }
       ]
     },
@@ -168,17 +186,20 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "./assets/images/img_productos/ropa1.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg",
+          "id": 5
         },
         {
           "nombre": "Pantalones Deportivos",
           "precio": 30,
-          "foto": "./assets/images/img_productos/ropa2.jpg"
+          "foto": "./assets/images/img_productos/ropa2.jpg",
+          "id": 6
         },
         {
           "nombre": "Zapatillas Deportivas",
           "precio": 60,
-          "foto": "./assets/images/img_productos/ropa4.jpg"
+          "foto": "./assets/images/img_productos/ropa4.jpg",
+          "id": 8
         }
       ]
     },
@@ -194,17 +215,20 @@
         {
           "nombre": "Camiseta Deportiva",
           "precio": 25,
-          "foto": "./assets/images/img_productos/ropa1.jpg"
+          "foto": "./assets/images/img_productos/ropa1.jpg",
+          "id": 5
         },
         {
           "nombre": "Pantalones Deportivos",
           "precio": 30,
-          "foto": "./assets/images/img_productos/ropa2.jpg"
+          "foto": "./assets/images/img_productos/ropa2.jpg",
+          "id": 6
         },
         {
           "nombre": "Sudadera con Capucha",
           "precio": 40,
-          "foto": "./assets/images/img_productos/ropa3.jpg"
+          "foto": "./assets/images/img_productos/ropa3.jpg",
+          "id": 7
         }
       ]
     },
@@ -220,17 +244,20 @@
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "./assets/images/img_productos/accesorio2.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg",
+          "id": 10
         },
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "./assets/images/img_productos/accesorio3.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg",
+          "id": 11
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "./assets/images/img_productos/accesorio4.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg",
+          "id": 12
         }
       ]
     },
@@ -246,17 +273,20 @@
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "./assets/images/img_productos/accesorio3.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg",
+          "id": 11
         },
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "./assets/images/img_productos/accesorio1.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg",
+          "id": 9
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "./assets/images/img_productos/accesorio4.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg",
+          "id": 12
         }
       ]
     },
@@ -272,17 +302,20 @@
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "./assets/images/img_productos/accesorio2.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg",
+          "id": 10
         },
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "./assets/images/img_productos/accesorio1.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg",
+          "id": 9
         },
         {
           "nombre": "Mancuernas de Neopreno",
           "precio": 50,
-          "foto": "./assets/images/img_productos/accesorio4.jpg"
+          "foto": "./assets/images/img_productos/accesorio4.jpg",
+          "id": 12
         }
       ]
     },
@@ -298,17 +331,20 @@
         {
           "nombre": "Bandas de Resistencia",
           "precio": 15,
-          "foto": "./assets/images/img_productos/accesorio1.jpg"
+          "foto": "./assets/images/img_productos/accesorio1.jpg",
+          "id": 9
         },
         {
           "nombre": "Cinta de Correr",
           "precio": 600,
-          "foto": "./assets/images/img_productos/accesorio2.jpg"
+          "foto": "./assets/images/img_productos/accesorio2.jpg",
+          "id": 10
         },
         {
           "nombre": "Bicicleta Estática",
           "precio": 250,
-          "foto": "./assets/images/img_productos/accesorio3.jpg"
+          "foto": "./assets/images/img_productos/accesorio3.jpg",
+          "id": 11
         }
       ]
     },
@@ -324,17 +360,20 @@
         {
           "nombre": "Fit Chips",
           "precio": 5,
-          "foto": "./assets/images/img_productos/suplemento2.jpg"
+          "foto": "./assets/images/img_productos/suplemento2.jpg",
+          "id": 14
         },
         {
           "nombre": "Galletas Fit",
-          "precio": 15,
-          "foto": "./assets/images/img_productos/suplemento3.jpg"
+          "precio": 7,
+          "foto": "./assets/images/img_productos/suplemento3.jpg",
+          "id": 15
         },
         {
-          "nombre": "Crema de Cacahuete",
-          "precio": 15,
-          "foto": "./assets/images/img_productos/suplemento4.jpg"
+          "nombre": "Crema de cacahuete",
+          "precio": 8,
+          "foto": "./assets/images/img_productos/suplemento4.jpg",
+          "id": 16
         }
       ]
     },
@@ -342,25 +381,28 @@
       "id": 14,
       "nombre": "Fit Chips",
       "tipo": "Suplementación Deportiva",
-      "descripcion": "Suplemento de creatina monohidratada para aumentar la fuerza y la resistencia muscular.",
-      "descripcion_extendida": "La creatina es uno de los suplementos más estudiados y utilizados en el mundo del fitness y el deporte. Al aumentar los niveles de fosfocreatina en los músculos, ayuda a mejorar la fuerza, la potencia y la resistencia durante los entrenamientos de alta intensidad. Además, la creatina puede favorecer la recuperación muscular y aumentar la síntesis de proteínas. Este suplemento es esencial para cualquier persona que busque mejorar su rendimiento en el gimnasio o en su deporte favorito.",
-      "precio": 20,
+      "descripcion": "Chips saludables y crujientes para satisfacer tus antojos sin sentirte culpable.",
+      "descripcion_extendida": "Estos Fit Chips son la opción perfecta para satisfacer tus antojos de snack de forma saludable. Están hechos con ingredientes naturales y nutritivos, como batatas, zanahorias y guisantes, y están horneados en lugar de fritos, lo que los hace mucho más saludables que los chips tradicionales. Son bajos en calorías y grasas, pero ricos en sabor, lo que los convierte en el snack perfecto para disfrutar en cualquier momento del día sin sentirte culpable.",
+      "precio": 5,
       "foto": "./assets/images/img_productos/suplemento2.jpg",
       "related_products": [
         {
           "nombre": "Barrita energetica",
           "precio": 5,
-          "foto": "./assets/images/img_productos/suplemento1.jpg"
+          "foto": "./assets/images/img_productos/suplemento1.jpg",
+          "id": 13
         },
         {
           "nombre": "Galletas Fit",
-          "precio": 25,
-          "foto": "./assets/images/img_productos/suplemento3.jpg"
+          "precio": 7,
+          "foto": "./assets/images/img_productos/suplemento3.jpg",
+          "id": 15
         },
         {
-          "nombre": "Crema de Cacahuete",
-          "precio": 35,
-          "foto": "./assets/images/img_productos/suplemento4.jpg"
+          "nombre": "Crema de cacahuete",
+          "precio": 8,
+          "foto": "./assets/images/img_productos/suplemento4.jpg",
+          "id": 16
         }
       ]
     },
@@ -368,54 +410,59 @@
       "id": 15,
       "nombre": "Galletas Fit",
       "tipo": "Suplementación Deportiva",
-      "descripcion": "Suplemento de BCAAs en polvo para mejorar la recuperación muscular y el rendimiento durante el entrenamiento.",
-      "descripcion_extendida": "Los BCAAs, o aminoácidos de cadena ramificada, son fundamentales para la síntesis de proteínas musculares y la recuperación después del ejercicio. Este suplemento en polvo ofrece una forma rápida y conveniente de proporcionar a los músculos los nutrientes necesarios para reparar y crecer más fuertes. Ideal para consumir antes, durante o después del entrenamiento, los BCAAs ayudan a reducir la fatiga muscular y mejorar el rendimiento.",
-      "precio": 25,
+      "descripcion": "Galletas crujientes y saludables para satisfacer tu hambre entre comidas.",
+      "descripcion_extendida": "Estas galletas fit son una opción deliciosa y nutritiva para satisfacer tu hambre entre comidas. Están hechas con ingredientes saludables como avena, plátano y nueces, y están endulzadas con ingredientes naturales como miel o stevia en lugar de azúcar refinado. Son ricas en fibra, proteínas y grasas saludables, lo que las convierte en una opción perfecta para mantener tu energía y saciedad durante todo el día.",
+      "precio": 7,
       "foto": "./assets/images/img_productos/suplemento3.jpg",
       "related_products": [
         {
-          "nombre": "Crema de Cacahuete",
-          "precio": 35,
-          "foto": "./assets/images/img_productos/suplemento4.jpg"
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg",
+          "id": 13
         },
         {
           "nombre": "Fit Chips",
-          "precio": 20,
-          "foto": "./assets/images/img_productos/suplemento2.jpg"
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento2.jpg",
+          "id": 14
         },
         {
-          "nombre": "Barrita energetica",
-          "precio": 5,
-          "foto": "./assets/images/img_productos/suplemento1.jpg"
+          "nombre": "Crema de cacahuete",
+          "precio": 8,
+          "foto": "./assets/images/img_productos/suplemento4.jpg",
+          "id": 16
         }
       ]
     },
     {
       "id": 16,
-      "nombre": "Crema de Cacahuete",
+      "nombre": "Crema de cacahuete",
       "tipo": "Suplementación Deportiva",
-      "descripcion": "Proteína en polvo para la recuperación muscular y el crecimiento.",
-      "descripcion_extendida": "La proteína en polvo es un suplemento esencial para quienes buscan maximizar su rendimiento deportivo y optimizar la recuperación muscular. Esta proteína en polvo está diseñada para proporcionar a tus músculos los aminoácidos necesarios para reparar y construir tejido muscular después del ejercicio intenso. Con una combinación equilibrada de aminoácidos de alta calidad, esta proteína te ayuda a alcanzar tus objetivos de fuerza y ​​masa muscular magra. Además, su fácil digestión y rápida absorción la convierten en una opción perfecta para consumir después del entrenamiento. ¡Agrega esta proteína en polvo a tu rutina diaria y maximiza tus resultados!",
-      "precio": 35,
+      "descripcion": "Crema refrescante diseñada para reponer los electrolitos perdidos durante el ejercicio.",
+      "descripcion_extendida": "Una crema isotónica es una opción refrescante y revitalizante para reponer los electrolitos perdidos durante el ejercicio intenso. Está especialmente formulada para proporcionar una combinación óptima de carbohidratos, sodio y otros minerales que ayudan a mantener el equilibrio hídrico y mejorar la absorción de líquidos. Es perfecta para consumir durante o después de actividades físicas prolongadas o intensas, especialmente en climas cálidos.",
+      "precio": 8,
       "foto": "./assets/images/img_productos/suplemento4.jpg",
       "related_products": [
         {
-          "nombre": "Galletas Fit",
-          "precio": 25,
-          "foto": "./assets/images/img_productos/suplemento3.jpg"
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg",
+          "id": 13
         },
         {
           "nombre": "Fit Chips",
-          "precio": 20,
-          "foto": "./assets/images/img_productos/suplemento2.jpg"
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento2.jpg",
+          "id": 14
         },
         {
-          "nombre": "Barrita energetica",
-          "precio": 5,
-          "foto": "./assets/images/img_productos/suplemento1.jpg"
+          "nombre": "Galletas Fit",
+          "precio": 7,
+          "foto": "./assets/images/img_productos/suplemento3.jpg",
+          "id": 15
         }
       ]
     }
-    
   ]
 }

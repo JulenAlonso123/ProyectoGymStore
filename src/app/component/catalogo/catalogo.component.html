@@ -1,9 +1,8 @@
+@if (Productos) {
 <div class="container-fluid text-center pb-5 ">
 
     <div class="container">
-      <h2 class="text-primary">
-        Proteinas
-      </h2>
+      <h1 class="large">CATÁLOGO</h1>
     </div>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row row-cols-md-4" >
       @for (Productos of Productos.productos; track Productos) {
@@ -19,7 +18,7 @@
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary" [routerLink]="['/pagina-producto/' + Productos.id]">Ver Detalles</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" [routerLink]="['/paginapago/' + Productos.id]">Comprar</button>
               </div>
               <p class="text-body-primary">{{Productos.precio}}€</p>
             </div>
@@ -30,3 +29,5 @@
   </div>
  
 </div>
+
+}

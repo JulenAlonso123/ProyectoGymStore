@@ -1,3 +1,5 @@
+@if (Productos) {
+
 <section class="py-5">
     <div class="container px-4 px-lg-5 my-5" >
         <button class="btn" [routerLink]="['/catalogo']">
@@ -20,11 +22,8 @@
                 </div>
                 <p class="lead">{{Productos.descripcion_extendida}}</p>
                 <div class="d-flex">
-                    <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                    <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                        <i class="bi-cart-fill me-1"></i>
-                        Add to cart
-                    </button>
+
+                    <button class="btn btn-outline-dark flex-shrink-0" type="button" [routerLink]="['/paginapago/' + Productos.id]">Comprar</button>
                 </div>
             </div>
         </div>
@@ -51,7 +50,7 @@
                     </div>
                     
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" [routerLink]="['/paginapago/' + Productos.related_products[0].id]">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -74,7 +73,7 @@
                     </div>
                     
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" [routerLink]="['/paginapago/' + Productos.related_products[1].id]">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -96,7 +95,7 @@
                     </div>
                     
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" [routerLink]="['/paginapago/' + Productos.related_products[2].id]">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -104,5 +103,5 @@
         </div>
     </div>
 </section>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+}

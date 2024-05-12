@@ -12,7 +12,7 @@ import { Productos } from '../../common/productos';
   styleUrl: './bestsellers.component.css'
 })
 export class BestsellersComponent implements OnInit{
-  Productos: Productos = { productos: [] };
+  Productos! : Productos;
 
   constructor(private dataService: DataService, private router: Router) { }
 

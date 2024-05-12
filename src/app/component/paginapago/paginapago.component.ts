@@ -1,27 +1,31 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../navbar/navbar.component';
-import { ProductoUnico } from '../../common/producto-unico';
 import { DataService } from '../../service/data.service';
-import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ProductoUnico } from '../../common/producto-unico';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-pagina-producto',
+  selector: 'app-paginapago',
   standalone: true,
-  imports: [NavbarComponent, RouterLink, RouterLinkActive],
-  templateUrl: './pagina-producto.component.html',
-  styleUrl: './pagina-producto.component.css'
+  imports: [],
+  templateUrl: './paginapago.component.html',
+  styleUrl: './paginapago.component.css'
 })
-export class PaginaProductoComponent {
+export class PaginapagoComponent {
+
+
 
   constructor(
     private dataService: DataService,
     private activeRoute: ActivatedRoute,
-    private router: Router,) { }
+    private router: Router) { }
 
-  Productos!: ProductoUnico;
+  ;
   
 
-
+  Productos!: ProductoUnico
+  quantity = 1;
+  
   ngOnInit(): void {
     this.loadProductos();
 
@@ -36,10 +40,14 @@ export class PaginaProductoComponent {
           console.error('ID de producto inválido');
         }
       });
+
+      
   }
+  
 
   loadProductos(): void {
     this.activeRoute.params.subscribe(params => {
+      
       const id = +params['id'];
       if (!isNaN(id)) {
         this.dataService.getProductobyID(id).subscribe({
@@ -56,8 +64,28 @@ export class PaginaProductoComponent {
       {
         console.error('ID de producto inválido');
       }
+
+      
     });
 
 }
+
+
+NombreDescuento = 'berthaApruebanos';
+estadodescuento = false;
+Envio = 5;
+PorcentajeDescuento = 10;
+//PrecioTotal = this.Productos.id -this.Envio;
+applyDiscount(valor : string){
+
+  if (valor == this.NombreDescuento){
+    console.log(this.Productos.precio);
+    this.estadodescuento = true;
+  }else{
+    console.log('El codigo no es correcto')
+    this.estadodescuento = false; 
+  }
+}
+
 
 }

@@ -8,6 +8,7 @@ import { ProductoUnico } from '../common/producto-unico';
   providedIn: 'root'
 })
 export class DataService {
+
   constructor(private http: HttpClient){}
 
   getProducto(): Observable<Productos>{
@@ -25,6 +26,8 @@ export class DataService {
       })
     );
   }
+
+
 }
 
 

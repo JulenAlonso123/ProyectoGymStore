@@ -14,6 +14,7 @@ export interface Producto {
 }
 
 export interface RelatedProduct {
+  id:number
   nombre: string
   precio: number
   foto: string
