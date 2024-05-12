@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { DataService } from '../../service/data.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductoUnico } from '../../common/producto-unico';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-paginapago',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './paginapago.component.html',
   styleUrl: './paginapago.component.css'
 })
@@ -24,8 +24,8 @@ export class PaginapagoComponent {
   
 
   Productos!: ProductoUnico
-  quantity = 1;
-  
+  cantidad: number = 1; // Inicializa la cantidad con 1
+
   ngOnInit(): void {
     this.loadProductos();
 
@@ -75,7 +75,7 @@ NombreDescuento = 'berthaApruebanos';
 estadodescuento = false;
 Envio = 5;
 PorcentajeDescuento = 10;
-//PrecioTotal = this.Productos.id -this.Envio;
+
 applyDiscount(valor : string){
 
   if (valor == this.NombreDescuento){
@@ -86,6 +86,8 @@ applyDiscount(valor : string){
     this.estadodescuento = false; 
   }
 }
+
+
 
 
 }

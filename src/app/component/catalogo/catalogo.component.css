@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 
 h1.large{
-    font-size: 180px;
-    font-weight: 900;
+
     color:#5d5959;
     font-family: 'Source Sans Pro', sans-serif;
 }

@@ -1,13 +1,13 @@
 @if (Productos) {
 <div class="container-fluid text-center pb-5 ">
 
-    <div class="container">
+    <div class="container mt-5 mb-5">
       <h1 class="large">CATÁLOGO</h1>
     </div>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row row-cols-md-4" >
       @for (Productos of Productos.productos; track Productos) {
     
-      <div class="col">
+      <div class="col mb-5 mt-5">
         <div class="card shadow-sm ">
           <img src="{{Productos.foto}}" alt="imagen card" style="height: 60%; width: 100%;">
           <div class="card-body">

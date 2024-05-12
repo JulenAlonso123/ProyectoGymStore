@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductoUnico } from '../../common/producto-unico';
 import { DataService } from '../../service/data.service';
-import { Router } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { Productos } from '../../common/productos';
 
 @Component({
   selector: 'app-bestsellers',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './bestsellers.component.html',
   styleUrl: './bestsellers.component.css'
 })
