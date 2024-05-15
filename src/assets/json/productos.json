@@ -463,6 +463,35 @@
           "id": 15
         }
       ]
+    },
+    {
+      "id": 17,
+      "nombre": "OBJETO CREAR BERTHA",
+      "tipo": "Suplementación Deportiva",
+      "descripcion": "Objeto creado para que bertha compruebe si funciona ",
+      "descripcion_extendida": "Objeto creado para que bertha compruebe si funciona , Objeto creado para que bertha compruebe si funciona , Objeto creado para que bertha compruebe si funciona , Objeto creado para que bertha compruebe si funciona , Objeto creado para que bertha compruebe si funciona , Objeto creado para que bertha compruebe si funciona ",
+      "precio": 8,
+      "foto": "./assets/images/img_productos/ropa3.jpg",
+      "related_products": [
+        {
+          "nombre": "Barrita energetica",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento1.jpg",
+          "id": 13
+        },
+        {
+          "nombre": "Fit Chips",
+          "precio": 5,
+          "foto": "./assets/images/img_productos/suplemento2.jpg",
+          "id": 14
+        },
+        {
+          "nombre": "Galletas Fit",
+          "precio": 7,
+          "foto": "./assets/images/img_productos/suplemento3.jpg",
+          "id": 15
+        }
+      ]
     }
   ]
 }
